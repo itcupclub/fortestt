@@ -30,12 +30,14 @@
         }
         
         .key-container button {
-            width: 86px;
-            height: 116px;
+            /* width: 43px, height: 58px */
+            width: 64.5px;
+            height: 87px;
             border-radius: 8px;
             border: none;
             background-color: #818384;
             margin: 8px;
+            font-size: 24px;
         }
         
         /* asdfghjkl */
@@ -54,9 +56,8 @@
         }
         
         .tile-container .tile {
-            width: 96px;
-            height: 96px;
-            border: 8px solid#3a3a3c;
+            width: 128px;
+            height: 128px;
             background-color: #3a3a3c;
             opacity: .8;
             box-sizing: border-box;
@@ -64,7 +65,7 @@
             justify-content: center;
             align-items: center;
             margin: 2px;
-            font-size: 30px;
+            font-size: 40px;
         }
         
         .message-container {
