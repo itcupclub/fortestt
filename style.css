@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1170px) and (max-height: 2532px) {
         body {
-            background-image: url("./images/IMG_3186.JPG");
+            background-image: url("./images/var3.jpg");
             background-size: cover;
         }
         
@@ -20,36 +20,36 @@
 
         .tile-container {
             left: 50%;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         
         .key-container {
-            width: 510px;
+            width: 34.5rem;
             display: flex;
             flex-wrap: wrap;
+            border: 2px solid indigo;
         }
         
         .key-container button {
             /* width: 43px, height: 58px */
-            width: 43px;
-            height: 58px;
+            width: 3rem;
+            height: 4rem;
             border-radius: 4px;
             border: none;
             background-color: #818384;
-            margin: 4px;
-            font-size: 18px;
-            bottom: 20%;
+            margin: .2rem;
+            font-size: 1rem;
         }
         
         /* asdfghjkl */
         .key-container button:nth-child(11) {
-            margin-left: 30px;
+            margin-left: 2rem;
         }
         
         /* enter and delete key */
         .key-container button:nth-child(20), 
         .key-container button:nth-child(28) {
-            width: 68px;
+            width: 4.8rem;
         }
         
         .tile-container div {
@@ -57,16 +57,16 @@
         }
         
         .tile-container .tile {
-            width: 128px;
-            height: 128px;
+            width: 6rem;
+            height: 6rem;
             background-color: #3a3a3c;
             opacity: .8;
             box-sizing: border-box;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 2px;
-            font-size: 40px;
+            margin: .25rem;
+            font-size: 3rem;
         }
         
         .message-container {
