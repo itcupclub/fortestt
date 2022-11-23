@@ -27,7 +27,6 @@
             width: 34.5rem;
             display: flex;
             flex-wrap: wrap;
-            border: 2px solid indigo;
         }
         
         .key-container button {
