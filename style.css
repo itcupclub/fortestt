@@ -25,6 +25,7 @@
             width: 75%;
             justify-content: center;
             align-items: center;
+            transform: translateX(3rem);
         }
         
         .key-container {
