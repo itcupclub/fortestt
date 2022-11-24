@@ -22,6 +22,9 @@
             left: 50%;
             margin-bottom: 3rem;
             padding-top: 6rem;
+            width: 75%;
+            justify-content: center;
+            align-items: center;
         }
         
         .key-container {
@@ -59,8 +62,8 @@
         
         .tile-container .tile {
             /* original size: 64px */
-            width: 6rem;
-            height: 6rem;
+            width: 7.5rem;
+            height: 7.5rem;
             background-color: #3a3a3c;
             opacity: .8;
             box-sizing: border-box;
@@ -68,7 +71,7 @@
             justify-content: center;
             align-items: center;
             margin: .25rem;
-            font-size: 3rem;
+            font-size: 3.5rem;
         }
         
         .message-container {
