@@ -2313,7 +2313,9 @@ const submitGuess = () => {
         else {
             flipTile()
             if(targetWord == guess) {
-                showAlert("You Win", true)
+                setTimeout(() => {
+                    showAlert("You Win", true)
+                }, 2000)
                 isGameOver = true
                 return
             }
