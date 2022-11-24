@@ -82,6 +82,28 @@ const targetWords = [
     "WITH",
     "WORD",
     "YEAR",
+    // extra 21 words
+    "OVER",
+    "RATE",
+    "ZONE",
+    "SYNC",
+    "SONG",
+    "BAIT",
+    "CARE",
+    "DOPE",
+    "BALD",
+    "FIRE",
+    "REAL",
+    "GIFT",
+    "PLAN",
+    "POSE",
+    "PILE",
+    "WAVE",
+    "URGE",
+    "HERB",
+    "HOLE",
+    "LAMB",
+    "ROPE"
   ]
 const dictionary = [
     "ABET",
@@ -2184,7 +2206,7 @@ const dictionary = [
     "ZOOS"
   ]
 
-let targetWord = targetWords[Math.floor(Math.random()*78)]
+let targetWord = targetWords[Math.floor(Math.random()*99)]
 
 const keys = [
     'Q',
