@@ -61,8 +61,8 @@
         
         .tile-container .tile {
             /* original size: 64px */
-            width: 7.5rem;
-            height: 7.5rem;
+            width: 9rem;
+            height: 9rem;
             background-color: #3a3a3c;
             opacity: .8;
             box-sizing: border-box;
