@@ -4,6 +4,7 @@
     color: white;
 }
 
+/* based on the size of iPhone 12 Pro */
 @media screen and (max-width: 1170px) and (max-height: 2532px) {
         body {
             background-image: url("./images/var3.jpg");
